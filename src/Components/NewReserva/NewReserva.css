@@ -1,0 +1,49 @@
+.modalCenter {
+    top: 0;
+    background-color: var(--blanco);
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+
+.overlayCenter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.333); 
+    z-index: 999; 
+}
+.NewReservation .modal-send-form{
+    overflow-y:inherit!important;
+    height: auto;
+}
+.modal-send-form::-webkit-scrollbar{
+    background-color: transparent;
+    display: none;
+}
+ 
+.modal-send-form::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    display: none;
+  }
+@media (max-width: 1000px) {
+    .modalCenter {
+        top: 0;
+        background-color: var(--blanco);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 0;
+        border: none;
+}
+    
+}
